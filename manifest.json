@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "MDBG Traditional Chinese Dictionary Search",
-  "version": "1.1",
+  "version": "1.2",
 
   "description": "Search engine add-on for the MDBG Traditional Chinese Dictionary",
 
@@ -12,7 +12,7 @@
 
   "chrome_settings_overrides": {
     "search_provider": {
-      "name": "MDBG Simplified Chinese",
+      "name": "MDBG Traditional Chinese",
       "search_url": "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=1&wdqb={searchTerms}",
       "keyword": "mdbgt",
       "encoding": "UTF-8",
